@@ -1,0 +1,61 @@
+﻿<UserControl x:Class="DCTTA.Fragments.CurrencyDetails"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:DCTTA.Fragments" 
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="0.2*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="4*"/>
+            </Grid.ColumnDefinitions>
+
+            <Label Grid.Column="0" Grid.Row="0" Content="Код" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,20,0"
+                   HorizontalContentAlignment="Left" MinWidth="70"></Label>
+            <Label Grid.Column="1" Grid.Row="0" Name="CodeLabel" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="20,0,0,0" ></Label>
+
+            <Label Grid.Column="0" Grid.Row="1" Content="Назва" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,20,0"
+                   HorizontalContentAlignment="Left" MinWidth="70"></Label>
+            <Label Grid.Column="1" Grid.Row="1" Name="NameLabel" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="20,0,0,0"></Label>
+
+            <Label Grid.Column="0" Grid.Row="2" Content="Ціна" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,20,0"
+                    HorizontalContentAlignment="Left" MinWidth="70"></Label>
+            <Label Grid.Column="1" Grid.Row="2" Name="PriceLabel" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="20,0,0,0"></Label>
+
+            <Label Grid.Column="0" Grid.Row="3" Content="Обсяг" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,20,0"
+                    HorizontalContentAlignment="Left" MinWidth="70"></Label>
+            <Label Grid.Column="1" Grid.Row="3" Name="VolumeLabel" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="20,0,0,0"></Label>
+
+            <Label Grid.Column="0" Grid.Row="4" Content="Зміна ціни" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,20,0"
+                    HorizontalContentAlignment="Left" MinWidth="70"></Label>
+            <Label Grid.Column="1" Grid.Row="4" Name="PriceChangeLabel" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="20,0,0,0"></Label>
+
+            <Label Grid.Column="0" Grid.Row="5" Content="Ринки" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,20,0"
+                    HorizontalContentAlignment="Left" MinWidth="70" Grid.RowSpan="3"></Label>
+            <ScrollViewer Grid.Column="1" Grid.Row="5" Grid.RowSpan="3"  Margin="20,5,5,5" VerticalScrollBarVisibility="Auto">
+                <WrapPanel x:Name="MarketsPanel">
+
+                </WrapPanel>
+            </ScrollViewer>
+
+        </Grid>
+        <Button Grid.Row="1" Content="GoToMainPage" VerticalAlignment="Center" HorizontalAlignment="Center"  Click="GoToMainPage_Click"/>
+    </Grid>
+</UserControl>

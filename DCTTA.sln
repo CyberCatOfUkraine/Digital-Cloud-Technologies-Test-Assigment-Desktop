@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DCTTA", "DCTTA\DCTTA.csproj", "{48E7BC6E-7039-4B6A-AD21-8ED719E5D789}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console", "Console\Console.csproj", "{A26D1997-E841-40E3-AED6-0FAF1CC19615}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiScraper", "ApiScraper\ApiScraper.csproj", "{38E22944-A68B-44B1-B4D4-2DCD5D19EB34}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48E7BC6E-7039-4B6A-AD21-8ED719E5D789}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48E7BC6E-7039-4B6A-AD21-8ED719E5D789}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48E7BC6E-7039-4B6A-AD21-8ED719E5D789}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48E7BC6E-7039-4B6A-AD21-8ED719E5D789}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A26D1997-E841-40E3-AED6-0FAF1CC19615}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A26D1997-E841-40E3-AED6-0FAF1CC19615}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A26D1997-E841-40E3-AED6-0FAF1CC19615}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A26D1997-E841-40E3-AED6-0FAF1CC19615}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38E22944-A68B-44B1-B4D4-2DCD5D19EB34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38E22944-A68B-44B1-B4D4-2DCD5D19EB34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38E22944-A68B-44B1-B4D4-2DCD5D19EB34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38E22944-A68B-44B1-B4D4-2DCD5D19EB34}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D67FDCFC-9A56-43D3-BFAF-18B8EEB59E25}
+	EndGlobalSection
+EndGlobal
